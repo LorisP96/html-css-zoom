@@ -9,11 +9,31 @@ img {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* HEADER */
 header {
-    background-color: lightblue;
+    background-color: black;
     height: 70px;
     width: 100%;
+    position: relative;
+}
+
+header div {
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+
+header span {
+    color: white;
+    background-color: #4a4a4a;
+    padding: 6px;
+    border-radius: 7px;
 }
 
 /* MAIN */
