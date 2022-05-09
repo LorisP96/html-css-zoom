@@ -4,3 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+header {
+    background-color: lightblue;
+    height: 70px;
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    background-color: pink;
+    height: calc(100vh - 170px);
+}
+
+/* FOOTER */
+footer {
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.box {
+    width: 250px;  
+    height: 150px;
+    background-color: brown;
+    margin: 5px;
+}
